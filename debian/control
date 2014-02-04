@@ -1,0 +1,38 @@
+Source: kimageformats
+Section: kde
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Rohan Garg <rohangarg@kubuntu.org>
+Build-Depends: debhelper (>= 9.0.0), cmake,
+ extra-cmake-modules,
+ pkg-kde-tools,
+ qtbase5-dev,
+ pkg-config,
+ libjpeg-dev,
+ libjasper-dev,
+ libopenexr-dev
+Standards-Version: 3.9.5
+Homepage: https://projects.kde.org/projects/frameworks/kimageformats
+
+Package: kimageformat-plugins
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: This framework provides additional image format plugins for QtGui. 
+ This framework provides additional image format plugins for QtGui.  As
+ such it is not required for the compilation of any other software, but
+ may be a runtime requirement for Qt-based software to support certain
+ image formats.
+ .
+ This package is part of KDE Frameworks.
+
+Package: kimageformats-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends: kimageformat-plugins (= ${binary:Version}),
+ ${shlibs:Depends}, ${misc:Depends}
+Description: Debugging symbols for kimageformats
+ This package contains debugging files used to investigate problems with
+ binaries included in the kimageformats package.
+ .
+ This package is part of KDE Frameworks.
