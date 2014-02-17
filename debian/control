@@ -10,7 +10,8 @@ Build-Depends: debhelper (>= 9.0.0), cmake,
  pkg-config,
  libjpeg-dev,
  libjasper-dev,
- libopenexr-dev
+ libopenexr-dev,
+ libopenjpeg-dev
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kimageformats
 
