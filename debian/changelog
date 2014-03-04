@@ -5,7 +5,7 @@ kimageformats (4.97.0-0ubuntu1) UNRELEASED; urgency=medium
   * Rename library package for soname 5
 
   [ Scarlett Clark ]
-  * Patch failing i386 test disable_test_breaks_i386.diff
+  * Patch failing i386 test kubuntu_disable-test-breaks-i386.diff
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 03 Mar 2014 12:20:58 +0000
 
