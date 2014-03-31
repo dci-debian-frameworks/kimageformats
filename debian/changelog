@@ -1,6 +1,7 @@
 kimageformats (4.98.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream beta release
+  * Add kubuntu_disable-broken-test.diff to ignore test, broken upstream
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Sat, 29 Mar 2014 10:55:58 +0000
 
