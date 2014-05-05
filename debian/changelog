@@ -1,4 +1,4 @@
-kimageformats (4.98.0-0ubuntu1) UNRELEASED; urgency=medium
+kimageformats (4.98.0-0ubuntu1) trusty; urgency=medium
 
   * New upstream beta release
   * Add kubuntu_disable-broken-test.diff to ignore test, broken upstream
