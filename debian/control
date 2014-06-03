@@ -12,7 +12,8 @@ Build-Depends: cmake,
                libopenjpeg-dev,
                pkg-config,
                pkg-kde-tools,
-               qtbase5-dev
+               qtbase5-dev,
+               xvfb
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kimageformats
 

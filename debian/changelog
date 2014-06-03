@@ -5,7 +5,10 @@ kimageformats (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Bump depends versions
-  * Bump depends versions
+
+  [ Philip Muškovac ]
+  * Fix test run by using xvfb and drop kubuntu_disable-broken-test.diff
+  * Update kimageformat-plugins.install with new service install path
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:40:11 +0100
 
