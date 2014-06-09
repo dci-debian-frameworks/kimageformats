@@ -13,6 +13,7 @@ Build-Depends: cmake,
                pkg-config,
                pkg-kde-tools,
                qtbase5-dev,
+               xauth,
                xvfb
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kimageformats

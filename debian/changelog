@@ -14,6 +14,9 @@ kimageformats (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Remove useless Pre-Depends fields used for multiarch compat in
     releases older than trusty
 
+  [ José Manuel Santamaría Lema ]
+  * Build depend on xauth.
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:40:11 +0100
 
 kimageformats (4.99.0-0ubuntu1) trusty; urgency=medium
