@@ -3,6 +3,7 @@ Upstream-Name: kimageformats
 Source: https://projects.kde.org/projects/frameworks/kimageformats
 
 Files: *
+       debian/*
 Copyright: 1998 Halfdan Ingvarsson
            2002-2005 Nadeem Hasan <nhasan@kde.org>
            2003 Dominik Seichter <domseichter@web.de>
@@ -11,6 +12,7 @@ Copyright: 1998 Halfdan Ingvarsson
            2005 Ignacio Castaño <castanyo@yahoo.es>
            2007 Ruben Lopez <r.lopez@bren.es>
            2010 Troy Unrau <troy@kde.org>
+           2014 Jonathan Riddell <jriddell@ubuntu.com>
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -78,22 +80,3 @@ License: BSD
  THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-Files: debian/*
-Copyright: 2014 Jonathan Riddell <jriddell@ubuntu.com>
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
- .
- This package is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <http://www.gnu.org/licenses/>
- .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
