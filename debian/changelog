@@ -1,9 +1,9 @@
-kimageformats (5.1.0-0ubuntu1) UNRELEASED; urgency=medium
+kimageformats (5.1.0-0ubuntu1) utopic; urgency=medium
 
   * Update copyright to match licensing to source 
   * New upstream release
 
- -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Sun, 03 Aug 2014 18:52:00 -0700
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 05 Aug 2014 17:32:40 +0200
 
 kimageformats (5.0.0-0ubuntu1) utopic; urgency=medium
 
