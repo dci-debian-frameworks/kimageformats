@@ -11,7 +11,7 @@ Build-Depends: cmake,
                libopenexr-dev,
                libopenjpeg-dev,
                pkg-config,
-               pkg-kde-tools (>= 0.15.15),
+               pkg-kde-tools,
                qtbase5-dev,
                xauth,
                xvfb
