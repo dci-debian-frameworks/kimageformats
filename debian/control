@@ -17,8 +17,8 @@ Build-Depends: cmake,
                xvfb
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/kimageformats
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kimageformat
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/kimageformat
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/kimageformats.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kimageformats.git
 
 Package: kimageformat-plugins
 Architecture: any
