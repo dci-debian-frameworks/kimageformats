@@ -1,2 +1,2 @@
-usr/lib/*/qt5/plugins/
-usr/share/kservices5/
+usr/lib/*/qt5/plugins/imageformats/
+usr/share/kservices5/qimageioplugins/
