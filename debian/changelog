@@ -1,8 +1,8 @@
-kimageformats (5.13.0-1~) UNRELEASED; urgency=medium
+kimageformats (5.13.0-1) unstable; urgency=medium
 
   * New upstream release (5.13.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 27 Aug 2015 15:23:15 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 27 Aug 2015 18:35:56 +0200
 
 kimageformats (5.12.0-1) unstable; urgency=medium
 
