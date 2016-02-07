@@ -30,16 +30,3 @@ Description: This framework provides additional image format plugins for QtGui.
  image formats.
  .
  This package is part of KDE Frameworks.
-
-Package: kimageformats-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends: kimageformat-plugins (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Debugging symbols for kimageformats
- This package contains debugging files used to investigate problems with
- binaries included in the kimageformats package.
- .
- This package is part of KDE Frameworks.
