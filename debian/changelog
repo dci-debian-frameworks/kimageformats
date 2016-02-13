@@ -1,8 +1,8 @@
-kimageformats (5.19.0-1~) UNRELEASED; urgency=medium
+kimageformats (5.19.0-1) experimental; urgency=medium
 
   * New upstream release (5.19.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 06 Feb 2016 18:59:21 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 15:15:50 +0100
 
 kimageformats (5.18.0-1) experimental; urgency=medium
 
