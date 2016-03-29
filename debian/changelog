@@ -1,6 +1,6 @@
-kimageformats (5.20.0-1~5.gbpd5f02b) UNRELEASED; urgency=medium
+kimageformats (5.20.0-1~6.gbpb98c84) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @d5f02b35c8c739defe2925ae20878df568bbf1aa **
+  ** SNAPSHOT build @b98c84330abfc08b332a9252efbfa08c103fda90 **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -10,8 +10,9 @@ kimageformats (5.20.0-1~5.gbpd5f02b) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 13:18:59 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 23:20:53 +0200
 
 kimageformats (5.19.0-1) experimental; urgency=medium
 
