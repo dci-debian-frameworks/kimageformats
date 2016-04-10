@@ -1,5 +1,8 @@
-kimageformats (5.20.0-1~8.gbp2f9721) UNRELEASED; urgency=medium
+kimageformats (5.21.0-1~1.gbpe8b926) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @e8b9265d9a2589fa355d2cefbc446adeb47fc97b **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @2f97218062b5b4c02b65bc5eb4bfde75a20e7ae0 **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -13,8 +16,14 @@ kimageformats (5.20.0-1~8.gbp2f9721) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * uscan no longer supports more than one main upstream tarball being listed
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 30 Mar 2016 12:01:52 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:23:19 +0200
 
 kimageformats (5.19.0-1) experimental; urgency=medium
 
