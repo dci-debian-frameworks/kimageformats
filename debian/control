@@ -5,7 +5,7 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.18.0~),
+               extra-cmake-modules (>= 5.19.0~),
                libjasper-dev,
                libjpeg-dev,
                libkf5archive-dev,
@@ -13,13 +13,11 @@ Build-Depends: cmake (>= 2.8.12),
                libopenjpeg-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.4),
-               xauth,
-               xvfb
+               qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kimageformats
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kimageformats.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kimageformats.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kimageformats.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kimageformats.git
 
 Package: kimageformat-plugins
 Architecture: any
@@ -29,18 +27,5 @@ Description: This framework provides additional image format plugins for QtGui.
  such it is not required for the compilation of any other software, but
  may be a runtime requirement for Qt-based software to support certain
  image formats.
- .
- This package is part of KDE Frameworks.
-
-Package: kimageformats-dbg
-Architecture: any
-Section: debug
-Priority: extra
-Depends: kimageformat-plugins (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Description: Debugging symbols for kimageformats
- This package contains debugging files used to investigate problems with
- binaries included in the kimageformats package.
  .
  This package is part of KDE Frameworks.
