@@ -1,18 +1,19 @@
-kimageformats (5.21.0-1~2.gbp016c6c) UNRELEASED; urgency=medium
+kimageformats (5.21.0-1~3.gbp62f720) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @016c6cc9be7dce4dd983359eb3b5c9b685afa3e5 **
+  ** SNAPSHOT build @62f7205f002f9fc954f99da108e07d64bd03cc62 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * uscan no longer supports more than one main upstream tarball being listed
+  * Drop Xephyr hack
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 30 Apr 2016 20:04:42 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 04 May 2016 20:23:13 +0200
 
 kimageformats (5.19.0-1) experimental; urgency=medium
 
