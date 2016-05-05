@@ -1,6 +1,4 @@
-kimageformats (5.21.0-1~3.gbp62f720) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @62f7205f002f9fc954f99da108e07d64bd03cc62 **
+kimageformats (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -13,7 +11,7 @@ kimageformats (5.21.0-1~3.gbp62f720) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
   * Bump Standards-Version to 3.9.8
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 04 May 2016 20:23:13 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 05 May 2016 15:11:55 +0200
 
 kimageformats (5.19.0-1) experimental; urgency=medium
 
