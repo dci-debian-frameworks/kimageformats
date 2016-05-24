@@ -1,3 +1,10 @@
+kimageformats (5.22.0-2) unstable; urgency=medium
+
+  * Follow jasper archive removal (Closes: 818206)
+  * Add optional build dependency
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 24 May 2016 13:44:07 +0200
+
 kimageformats (5.22.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
