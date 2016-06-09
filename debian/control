@@ -19,7 +19,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kimageformats.git
 Package: kimageformat-plugins
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: This framework provides additional image format plugins for QtGui.
+Description: additional image format plugins for QtGui
  This framework provides additional image format plugins for QtGui.  As
  such it is not required for the compilation of any other software, but
  may be a runtime requirement for Qt-based software to support certain

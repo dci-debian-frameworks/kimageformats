@@ -6,6 +6,7 @@ kimageformats (5.22.0-3) UNRELEASED; urgency=medium
   * Stop forcing the local installation to debian/tmp, letting the package
     directory as install place.
     - remove kimageformat-plugins.install, no more used now
+  * Shorten the short description.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 Jun 2016 11:00:34 +0200
 
