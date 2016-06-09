@@ -1,3 +1,11 @@
+kimageformats (5.22.0-4~1.gbpd565cc) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @d565cc23747fd4023a06b41ffde2f4e010eadbe6 **
+
+  * release to unstable, as team upload
+
+ -- Pino Toscano <pino@debian.org>  Thu, 09 Jun 2016 13:23:12 +0200
+
 kimageformats (5.22.0-3) unstable; urgency=medium
 
   * Team upload.
