@@ -1,3 +1,8 @@
+kimageformats (5.22.0-3) UNRELEASED; urgency=medium
+
+
+ -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 Jun 2016 11:00:34 +0200
+
 kimageformats (5.22.0-2) unstable; urgency=medium
 
   * Follow jasper archive removal (Closes: 818206)
