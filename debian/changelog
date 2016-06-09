@@ -1,6 +1,6 @@
-kimageformats (5.22.0-3) UNRELEASED; urgency=medium
+kimageformats (5.22.0-3) unstable; urgency=medium
 
-  [ Pino Toscano ]
+  * Team upload.
   * Remove unused libjpeg-dev and libopenjpeg-dev build dependencies.
     (Closes: #826818)
   * Stop forcing the local installation to debian/tmp, letting the package
@@ -9,7 +9,7 @@ kimageformats (5.22.0-3) UNRELEASED; urgency=medium
   * Shorten the short description.
   * Update copyright.
 
- -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 09 Jun 2016 11:00:34 +0200
+ -- Pino Toscano <pino@debian.org>  Thu, 09 Jun 2016 11:16:16 +0200
 
 kimageformats (5.22.0-2) unstable; urgency=medium
 
