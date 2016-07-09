@@ -1,3 +1,11 @@
+kimageformats (5.24.0-1~1.gbp9c30e6) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @9c30e67ee69cdde5269f9246bd8a79c09b0104bb **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 11:23:11 +0200
+
 kimageformats (5.23.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
