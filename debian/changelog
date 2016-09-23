@@ -4,6 +4,13 @@ kimageformats (5.26.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Mon, 12 Sep 2016 08:32:17 +0000
 
+kimageformats (5.25.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 19 Aug 2016 09:09:56 +0200
+
 kimageformats (5.25.0-0neon) xenial; urgency=medium
 
   * New release
@@ -16,17 +23,66 @@ kimageformats (5.24.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Mon, 11 Jul 2016 07:42:11 +0000
 
+kimageformats (5.23.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 18 Jun 2016 16:50:10 +0200
+
 kimageformats (5.23.0-0neon) xenial; urgency=medium
 
   * New release
 
  -- Neon CI <neon@kde.org>  Mon, 13 Jun 2016 09:39:24 +0000
 
+kimageformats (5.22.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Remove unused libjpeg-dev and libopenjpeg-dev build dependencies.
+    (Closes: #826818)
+  * Stop forcing the local installation to debian/tmp, letting the package
+    directory as install place.
+    - remove kimageformat-plugins.install, no more used now
+  * Shorten the short description.
+  * Update copyright.
+
+ -- Pino Toscano <pino@debian.org>  Thu, 09 Jun 2016 11:16:16 +0200
+
+kimageformats (5.22.0-2) unstable; urgency=medium
+
+  * Follow jasper archive removal (Closes: 818206)
+  * Add optional build dependency
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 24 May 2016 13:44:07 +0200
+
+kimageformats (5.22.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 19 May 2016 00:16:52 +0200
+
 kimageformats (5.22.0-0neon) xenial; urgency=medium
 
   * New release
 
  -- Neon CI <neon@kde.org>  Tue, 17 May 2016 07:35:40 +0000
+
+kimageformats (5.21.0-1) experimental; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
+  * Add upstream metadata (DEP-12)
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * uscan no longer supports more than one main upstream tarball being listed
+  * Drop Xephyr hack
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 05 May 2016 15:11:55 +0200
 
 kimageformats (5.21.0-0neon) xenial; urgency=medium
 

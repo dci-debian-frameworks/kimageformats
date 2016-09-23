@@ -5,16 +5,13 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.19.0~),
-               libjasper-dev,
-               libjpeg-dev,
+               extra-cmake-modules (>= 5.25.0~),
                libkf5archive-dev,
                libopenexr-dev,
-               libopenjpeg-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.4)
-Standards-Version: 3.9.6
+               qtbase5-dev (>= 5.5.0~)
+Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/projects/frameworks/kimageformats
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kimageformats.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kimageformats.git
@@ -22,7 +19,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kimageformats.git
 Package: kimageformat-plugins
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: This framework provides additional image format plugins for QtGui.
+Description: additional image format plugins for QtGui
  This framework provides additional image format plugins for QtGui.  As
  such it is not required for the compilation of any other software, but
  may be a runtime requirement for Qt-based software to support certain
