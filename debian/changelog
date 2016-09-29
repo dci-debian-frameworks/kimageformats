@@ -1,10 +1,9 @@
-kimageformats (5.26.0-1~1.gbpefe6f5) UNRELEASED; urgency=medium
+kimageformats (5.26.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @efe6f5313c890f3e611e659909d5aed34e26f71e **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 17:23:34 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 11:59:06 +0200
 
 kimageformats (5.25.0-1) unstable; urgency=medium
 
