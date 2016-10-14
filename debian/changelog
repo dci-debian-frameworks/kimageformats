@@ -4,6 +4,16 @@ kimageformats (5.27.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Sat, 08 Oct 2016 11:31:06 +0000
 
+kimageformats (5.26.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * Replace dbus-launch with dbus-run-session in tests
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 29 Sep 2016 11:59:06 +0200
+
 kimageformats (5.26.0-0neon) xenial; urgency=medium
 
   * New release
