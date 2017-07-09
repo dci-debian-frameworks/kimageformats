@@ -1,4 +1,4 @@
-kimageformats (5.36.0-1~) UNRELEASED; urgency=medium
+kimageformats (5.36.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.35.0).
@@ -6,12 +6,13 @@ kimageformats (5.36.0-1~) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
   * watch: Use https uris
   * New upstream release (5.36.0).
+  * Update build-deps and deps with the info from cmake
 
   [ Raymond Wooninck ]
   * also include signing-key
   * Add signing key
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 13:42:12 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 09 Jul 2017 23:41:48 +0200
 
 kimageformats (5.28.0-1) unstable; urgency=medium
 
