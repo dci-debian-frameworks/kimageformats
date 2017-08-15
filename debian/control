@@ -10,7 +10,7 @@ Build-Depends: cmake (>= 3.0~),
                libopenexr-dev,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.7.0~)
+               qtbase5-dev (>= 5.7.0~),
 Standards-Version: 4.0.1
 Homepage: https://projects.kde.org/projects/frameworks/kimageformats
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kimageformats.git
